@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/tranquil-scene-nature-beauty-majestic-mountain-landscape-generated-by-artificial-intelligence_25030-65564.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: azure;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+#guess{
+    padding: 8px;
+    border-radius: 10px 15px 17px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#checkguess{
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#checkguess:hover{
+    background-color: rgb(124, 124, 169);
+}
+
+#restart{
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#restart:hover{
+    background-color: rgb(124, 124, 169);
+}
