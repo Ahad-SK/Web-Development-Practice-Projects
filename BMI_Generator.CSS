@@ -1,0 +1,35 @@
+header h1{
+    display: flex;
+    justify-content: center;
+}
+header h2{
+    display: flex;
+    justify-content: center;
+}
+header{
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 2px 5px 7px;
+    background-color: azure;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    color: rgb(16, 7, 7);
+    font-weight: 1000;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    gap: 50px;
+    width:40vw;
+    margin-left: 30vw;
+    background-image: url('https://cdn.vox-cdn.com/thumbor/lWOGzsPeAD6YzEVVNH001nrSqPM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24458108/captain_pikachu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
