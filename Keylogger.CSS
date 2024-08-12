@@ -1,0 +1,44 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/sunset-silhouettes-trees-mountains-generative-ai_169016-29371.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    border: 2px solid black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 20px;
+}
+#b1{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#b2{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#showkey{
+    display: flex;
+    border: 2px solid black;
+    height: 10vh;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
