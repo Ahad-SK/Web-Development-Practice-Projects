@@ -1,0 +1,47 @@
+body{
+background-color: aliceblue
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 10px;
+    text-align: center;
+}
+
+.cell{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
